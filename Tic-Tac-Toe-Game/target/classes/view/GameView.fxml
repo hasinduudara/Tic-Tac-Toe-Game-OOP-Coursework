@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="gameViewPage" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dcdcdc;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.tictactoegame.controller.GameViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="72.0" layoutY="22.0" prefHeight="46.0" prefWidth="455.0" style="-fx-background-color: #0571FF; -fx-background-radius: 30;" text="Tic-Tac-Toe Game" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <FlowPane layoutX="210.0" layoutY="109.0" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <Button fx:id="btn1" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn2" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn3" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn4" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn5" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn6" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn7" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn8" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+            <Button fx:id="btn9" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #00B7FF; -fx-border-color: #000000;" />
+         </children>
+      </FlowPane>
+      <Button fx:id="btnReset" layoutX="233.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnResetAction" prefHeight="40.0" prefWidth="133.0" style="-fx-background-color: #0571FF; -fx-background-radius: 50;" text="Reset" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
